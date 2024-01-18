@@ -1,4 +1,4 @@
-package com.jdacoder.spring.subscribe.model;
+package com.jdacoder.spring.tutorial.model;
 
 
 import javax.persistence.Column;

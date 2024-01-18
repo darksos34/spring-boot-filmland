@@ -55,7 +55,6 @@ public class WebSecurityConfig {
                 .authorizeRequests().antMatchers("/api/auth/**").permitAll()
                 .antMatchers("/api/test/**").permitAll()
                 .antMatchers( "/h2/**").permitAll()
-                .antMatchers("/").permitAll()
                 .antMatchers("/h2-console/**").permitAll();
 
         http.csrf().disable();

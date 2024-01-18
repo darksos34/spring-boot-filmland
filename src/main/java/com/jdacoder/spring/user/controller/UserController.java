@@ -29,7 +29,7 @@ public class UserController implements UserApi {
 
     @Override
     public Optional<User> getUserById(@PathVariable Long id) {
-        return userService.getUserById(id);
+        return Optional.ofNullable(userService.getUserById(id));
     }
 
     @Override

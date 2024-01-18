@@ -1,10 +1,9 @@
-package com.jdacoder.spring.subscribe.repository;
+package com.jdacoder.spring.tutorial.repository;
 
-import java.util.List;
-
+import com.jdacoder.spring.tutorial.model.Tutorial;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.jdacoder.spring.subscribe.model.Tutorial;
+import java.util.List;
 
 public interface TutorialRepository extends JpaRepository<Tutorial, Long> {
   List<Tutorial> findByPublished(boolean published);

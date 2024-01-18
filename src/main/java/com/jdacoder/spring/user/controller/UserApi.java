@@ -1,6 +1,5 @@
 package com.jdacoder.spring.user.controller;
 
-
 import com.jdacoder.spring.requests.RequestConstants;
 import com.jdacoder.spring.user.model.User;
 import org.springframework.security.access.prepost.PreAuthorize;

@@ -15,7 +15,3 @@ INSERT INTO user_roles(user_id, role_id) VALUES ('2', '2');
 INSERT INTO user_roles(user_id, role_id) VALUES ('3', '1');
 INSERT INTO user_roles(user_id, role_id) VALUES ('3', '2');
 INSERT INTO user_roles(user_id, role_id) VALUES ('3', '3');
-
-INSERT INTO profiles(first_name, last_name, phone_number, gender, date_of_birth, address, address_number, zip_code, city, country, user_id) VALUES ('userFirst', 'userLast', '0101234567', 'MALE', '2000-01-01 01:01:01.332', 'Helmerhoek', '101', '7547GL', 'Enschede', 'NL', 1);
-INSERT INTO profiles(first_name, last_name, phone_number, gender, date_of_birth, address, address_number, zip_code, city, country, user_id) VALUES ('moderatorFirst', 'moderatorLast', '0101234568', 'FEMALE', '2000-01-01 01:01:01.332', 'Twekkerlveld', '202', '7547GJ', 'Enschede', 'NL', 2);
-INSERT INTO profiles(first_name, last_name, phone_number, gender, date_of_birth, address, address_number, zip_code, city, country, user_id) VALUES ('adminFirst', 'adminLast', '0101234569', 'OTHER', '2000-01-01 01:01:01.332', 'Stroink', '303', '7547PM', 'Enschede', 'NL', 3);

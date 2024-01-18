@@ -3,12 +3,11 @@ package com.jdacoder.spring.user.service;
 import com.jdacoder.spring.user.model.User;
 import com.jdacoder.spring.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
-
 import org.springframework.stereotype.Service;
 
+import javax.persistence.EntityNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 /* All rights reserved by JdaCoder */
 
@@ -25,10 +24,6 @@ public class UserService {
         return users;
     }
 
-    public Optional<User> getUserById(Long id) {
-        return userRepository.findById(id);
-    }
-
     public void updateUser(User user) {
         userRepository.save(user);
     }
@@ -43,5 +38,10 @@ public class UserService {
     public void updatePassword(String updatedPassword) {
         userRepository.findByEmail(updatedPassword);
     }
-}
 
+    public User getUserById(Long Id) {
+        return userRepository.findById(Id)
+                .orElseThrow(() -> new EntityNotFoundException("User not found with id: " + Id));
+    }
+
+}
