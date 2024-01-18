@@ -3,7 +3,7 @@ package com.jdacoder.spring.user.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.jdacoder.spring.model.Audit;
 import com.jdacoder.spring.role.model.Role;
-import com.jdacoder.spring.subscribe.model.Category;
+import com.jdacoder.spring.subscribe.model.entiteiten.Category;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

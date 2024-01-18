@@ -1,4 +1,4 @@
-package com.jdacoder.spring.subscribe.model;
+package com.jdacoder.spring.subscribe.model.entiteiten;
 
 import com.jdacoder.spring.user.model.User;
 import lombok.Getter;

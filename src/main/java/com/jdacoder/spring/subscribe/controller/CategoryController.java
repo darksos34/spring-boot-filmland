@@ -1,7 +1,7 @@
 package com.jdacoder.spring.subscribe.controller;
 
-import com.jdacoder.spring.subscribe.model.Category;
-import com.jdacoder.spring.subscribe.model.ShareCategoryDTO;
+import com.jdacoder.spring.subscribe.model.entiteiten.Category;
+import com.jdacoder.spring.subscribe.model.dto.ShareCategoryDTO;
 import com.jdacoder.spring.subscribe.service.CategoryService;
 import com.jdacoder.spring.user.model.User;
 import com.jdacoder.spring.user.service.UserService;

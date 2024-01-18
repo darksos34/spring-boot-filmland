@@ -1,7 +1,7 @@
 package com.jdacoder.spring.subscribe.controller;
 
-import com.jdacoder.spring.subscribe.model.Category;
-import com.jdacoder.spring.subscribe.model.SubscribeDTO;
+import com.jdacoder.spring.subscribe.model.entiteiten.Category;
+import com.jdacoder.spring.subscribe.model.dto.SubscribeDTO;
 import com.jdacoder.spring.subscribe.service.CategoryService;
 import com.jdacoder.spring.subscribe.service.SubscriptionService;
 import org.springframework.beans.factory.annotation.Autowired;

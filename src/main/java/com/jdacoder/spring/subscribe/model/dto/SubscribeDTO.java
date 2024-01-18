@@ -1,4 +1,4 @@
-package com.jdacoder.spring.subscribe.model;
+package com.jdacoder.spring.subscribe.model.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

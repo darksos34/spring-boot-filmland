@@ -1,5 +1,5 @@
 package com.jdacoder.spring.subscribe.service;
-import com.jdacoder.spring.subscribe.model.Category;
+import com.jdacoder.spring.subscribe.model.entiteiten.Category;
 import com.jdacoder.spring.subscribe.repository.CategoryRepository;
 
 import com.jdacoder.spring.user.model.User;
