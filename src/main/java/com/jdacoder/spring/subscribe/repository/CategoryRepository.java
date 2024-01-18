@@ -5,6 +5,8 @@ import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
+/* All rights reserved by JdaCoder */
+
 @Repository
 public interface CategoryRepository extends JpaRepository<Category, Long> {
     Optional<Category> findById(Long id);

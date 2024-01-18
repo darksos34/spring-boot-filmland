@@ -4,6 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
+/* All rights reserved by JdaCoder */
+
 @Getter
 @Setter
 @AllArgsConstructor

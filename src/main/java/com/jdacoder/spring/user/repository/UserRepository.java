@@ -24,4 +24,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
     @Modifying
     @Query("UPDATE User u SET u.password = :password WHERE u.id = :userId")
     void updatePassword(@Param("password") String password, @Param("userId") Long userId);
+
+    @Query("SELECT CASE WHEN COUNT(c) > 0 THEN true ELSE false END FROM User u JOIN u.categories c WHERE u.id = :userId")
+    boolean isUserSubscribed(@Param("userId") Long userId);
 }

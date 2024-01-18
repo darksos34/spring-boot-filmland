@@ -3,7 +3,6 @@ package com.jdacoder.spring.user.controller;
 import com.jdacoder.spring.user.model.User;
 import com.jdacoder.spring.user.service.UserService;
 import lombok.RequiredArgsConstructor;
-
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -41,6 +40,7 @@ public class UserController implements UserApi {
     public void deleteUser(@PathVariable Long id) {
         userService.deleteUser(id);
     }
+
 }
 
 

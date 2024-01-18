@@ -11,6 +11,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
+/* All rights reserved by JdaCoder */
 
 @Entity
 @Setter

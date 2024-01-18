@@ -16,6 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.persistence.EntityNotFoundException;
 
+/* All rights reserved by JdaCoder */
+
 @RestController
 @RequestMapping("/api/subscriptions")
 public class SubscriptionController {

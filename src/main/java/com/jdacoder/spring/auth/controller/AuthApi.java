@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.validation.Valid;
 
+/* All rights reserved by JdaCoder */
+
 @RequestMapping(RequestConstants.API + RequestConstants.AUTH)
 public interface AuthApi {
     @PostMapping(RequestConstants.LOGIN)
