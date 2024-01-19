@@ -9,6 +9,7 @@ Auther: Jordy Hamwijk
 * IDE(Of your own choice)
 * Spring boot 2.7.16, Javax Validation
 * Jwt 0.11.3
+* Database H2 in memory
 
 ## 2. Project Installation
 
